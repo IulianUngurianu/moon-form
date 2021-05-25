@@ -1,0 +1,40 @@
+body, html {
+  background: url("img/index-bg.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%
+}
+h1 {
+  font-family: 'Gloria Hallelujah', cursivem;
+  font-size: 3rem;
+  color: #f57306;
+
+}
+
+#hr {
+  color: #f57306;
+  border-width: 2px;
+  height: 7px;
+  max-width: 100px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+#button {
+
+  font-family: 'Gloria Hallelujah', cursivem;
+  font-weight: bold;
+  background-color: #f57306;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 1000px;
+  box-shadow: 0px 5px 20px 0px orange;
+}
+#button:hover {
+  background-color: #ff9d4c;
+  box-shadow: none;
+}
